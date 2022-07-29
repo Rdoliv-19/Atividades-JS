@@ -1,5 +1,16 @@
 const calcular = document.getElementById('calcular')
+const resultado = document.querySelector('.resultado')
 
-function clique (){
-    calcular.onclick = alert("Fui Clicado");
-}
+
+
+calcular.addEventListener("click", (evento) =>{
+    resultado.innerText = ("Fui clicado")
+} )
+
+
+
+/*function clique (){
+    console.log("Fui Clicado");
+}*/
+
+/*calcular.addEventListener("click", clique)*/
