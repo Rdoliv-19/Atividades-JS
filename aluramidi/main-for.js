@@ -38,3 +38,15 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++){
         tecla.classList.remove('ativa');
     }
 }
+ 
+const splash = document.querySelector('[data-splash]')
+
+splash.addEventListener("click", (evento) =>{
+    console.log(evento)
+    const nova = splash.classList.add('novaClasse')
+
+    nova[2]
+})
+
+
+

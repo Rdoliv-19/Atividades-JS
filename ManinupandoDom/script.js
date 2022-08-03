@@ -1,9 +1,10 @@
-const botao = document.querySelector("#calcular")
+const botao = document.querySelector("[data-botao]")
 
-const result = document.querySelector(".resultado")
+const result = document.querySelector("[data-resultado]")
 
 
 
 botao.addEventListener("click", (evento) =>{
-   result.innerText="Clicado"
+   console.log(evento)
+   //result.innerText="Clicado"
 })
