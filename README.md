@@ -1,2 +1,4 @@
-Este repositório foi criado para a prática do 
+## :star2: Sobre o repositório
+
+Repositório criado para prática do Javascript
 JavaScript 
