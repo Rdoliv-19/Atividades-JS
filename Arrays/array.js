@@ -1,13 +1,27 @@
-let botao = document.querySelector('.botao')
-let resposta = document.querySelector('.resposta')
+var livros = [
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:31.92
+},
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:21.89},
 
-botao.addEventListener("click", () =>{
-    resposta.innerText = soma.value
-})
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:31.92},
+]
 
-let x = 5
-let y = 5
+console.log(livros[1].editora)
 
-function soma(x,y){
-    x + y
-}
+livros[0].estoque = "20 unidades"
+
+delete livros[2].preco
+
+delete livros[0]
