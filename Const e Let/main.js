@@ -40,6 +40,9 @@ console.log(`${nome} ${sobrenome} tem ${idade} anos pesa ${peso} kg
  console.log(typeof endereco)
  console.log(typeof teste)
 
+ 
+
+
 
 
 
