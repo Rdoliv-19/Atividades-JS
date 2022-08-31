@@ -1,4 +1,4 @@
-const pessoa1 = {
+const pessoa1 = [{
     nome: 'Rodrigo',
     sobrenome: 'Oliveira',
     idade: '31',
@@ -16,10 +16,10 @@ const frutas = {
     quarta: 'manga',
     quinta: 'mamao',
     sexta: 'maça',
-}
+}]
 
 
-console.log(frutas.quinta)
+console.log(pessoa1)
 
 function criaNome(nome, sobrenome, idade){
     return { nome: nome,

@@ -3,7 +3,7 @@
     
 }
 
-console.log(somaNumeros(5, 5))
+console.log(somaNumeros(5, 5)) 
 
 function exibeTexto(nome){
   return `Bom dia ${nome}`
