@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="peso" id="peso">
+    <input type="text" placeholder="altura" id="altura">
+    <button id="botao">Calcula</button>
+    <span id="mostra-imc"></span>
+    <br><br>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Peso(kg)</th>
+            <th>Altura(m)</th>
+            <th>Gordura Corporal(%)</th>
+            <th>IMC</th>
+        </tr>
+    </thead>
+    <tbody id="tabela-pacientes" >
+        <tr class="paciente" id="paulo">
+            <td class="info-nome">Paulo</td>
+            <td class="info-peso">100</td>
+            <td class="info-altura">2.00</td>
+            <td class="info-gordura">10</td>
+            <td class="info-imc">0</td>
+        </tr>
+
+        <tr class="paciente" id="João">
+            <td class="info-nome">João</td>
+            <td class="info-peso">90</td>
+            <td class="info-altura">1.50</td>
+            <td class="info-gordura">20</td>
+            <td class="info-imc">0</td>
+        </tr>
+
+        <tr class="paciente" id="Marcelo">
+            <td class="info-nome">Marcelo</td>
+            <td class="info-peso">80</td>
+            <td class="info-altura">180.00</td>
+            <td class="info-gordura">10</td>
+            <td class="info-imc">0</td>
+        </tr>
+    </tbody>    
+    <script src="main.js"></script>
+</body>
+</html>
+

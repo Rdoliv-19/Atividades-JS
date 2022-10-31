@@ -1,6 +1,8 @@
-const marcas = ['HP', 'DELL', 'Lenovo', 'Sony']
+let pacientes = document.querySelectorAll(".paciente")
 
-
-marcas.forEach( (marcas) =>{
-    console.log(marcas)
+pacientes.forEach(function(paciente){
+    paciente.addEventListener("dblclick", function(){
+        console.log("Clicado duas vezes")
+        this.remove();
+    })
 })
