@@ -1,10 +1,6 @@
-const botao = document.querySelector("[data-botao]")
+let botao = document.querySelector("#botao")
+let corpo = document.querySelector("body")
 
-const result = document.querySelector("[data-resultado]")
-
-
-
-botao.addEventListener("click", (evento) =>{
-   result = result.innerHTML("Clicado")
-   
-})
+function modoEscuro(){
+   corpo.classList.add("modoEscuro")
+}

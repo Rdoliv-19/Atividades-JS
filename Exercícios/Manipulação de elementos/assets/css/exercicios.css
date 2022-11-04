@@ -60,3 +60,23 @@ form button:hover {
 .estilo-titulo{
   color: blue;
 }
+
+.cor-titulo{
+  color: red;
+}
+
+#tamanho-titulo{
+  font-size: 2em;
+}
+
+.novaCorbotao{
+  background-color: chartreuse;
+}
+
+.novaCorDeFundo{
+  background-color: cadetblue;
+}
+
+.cor-do-formulario{
+  background-color: aqua;
+}
