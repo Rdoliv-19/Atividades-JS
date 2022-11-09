@@ -5,12 +5,20 @@ const objetos = [
     {tag: 'section', texto: 'Frase 4'},
 ];
 
-let div = document.querySelector(".container")
+// let div = document.querySelector(".container")
 
-for(i=0; i < objetos.length; i++){
-    let criaTag = document.createElement(objetos[i].tag)
-    criaTag.innerHTML = objetos[i].texto
-    div.appendChild(criaTag)
+// for(i=0; i < objetos.length; i++){
+//     let criaTag = document.createElement(objetos[i].tag)
+//     criaTag.innerHTML = objetos[i].texto
+//     div.appendChild(criaTag)
+// }
+
+// for(let indice in objetos){
+//     console.log(indice, objetos[indice])
+// }
+
+for(let indiceOf of objetos){
+    console.log(indiceOf)
 }
 
 
